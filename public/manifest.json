@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Whale Wallet",
+  "version": "1.0",
+  "description": "A wallet for managing GameFi",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "/favicon.png"
+    }
+  },
+  "icons": {
+    "16": "/favicon.png"
+  },
+  "permissions": [
+    "storage",
+    "identity",
+    "https://whale.com/*"
+  ]
+}
