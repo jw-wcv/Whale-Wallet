@@ -9,7 +9,7 @@ async function checkBalance() {
   // Connect to Goerli network
   const provider = new ethers.providers.InfuraProvider(
     "goerli",
-    "53a27ca14c74480ab16acf9d9aa4f2da"
+    "Infura Key Here"
   );
 
   // Derive the first account associated with the mnemonic
